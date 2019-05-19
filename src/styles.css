@@ -1,0 +1,552 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*button*/
+.btn-group, .btn-group-vertical {
+  display: inline !important;
+}
+
+
+/*general*/
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+  width: 55px;
+  height: 25px;
+  margin-top: -20px;
+  font-size: 32px;
+}
+
+.OT-col-no-padding{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.OT-pd-t-5 {
+  padding-top: 5px !important;
+}
+
+.OT-pyramid-icon {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 8px 10px 8px;
+  border-color: transparent transparent #007bff transparent;
+  position: relative;
+  top: -14px;
+}
+
+.OT-sq-icon {
+  width: 16px;
+  height: 10px;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+/*ag theme*/
+.ag-theme-balham .ag-header {
+  background-color: #ffffff !important;
+}
+
+.ag-root-wrapper-body.ag-layout-normal {
+  height: auto !important;
+}
+
+.ag-theme-balham .ag-root {
+  border: none !important;
+}
+
+.ag-theme-balham .ag-row {
+  border-color: #e4e4e4 !important;
+}
+
+.ag-theme-balham .ag-header-cell::after, .ag-theme-balham .ag-header-group-cell::after {
+  border-right: 0px solid rgba(189, 195, 199, 0.5) !important;
+}
+
+.ag-theme-balham .ag-pinned-left-header {
+  border-right: 0px solid #BDC3C7 !important;
+}
+
+.ag-theme-balham .ag-header-cell-label .ag-header-cell-text {
+  font-size: 14px;
+  color: #333333;
+}
+
+.table-primary {
+  border-spacing: 0;
+}
+
+  .table-primary tr:last-child {
+    border-bottom: 1px solid #BFC0C2;
+  }
+  .table-primary > thead > tr > th, .table-primary > thead > tr > td, .table-primary > tbody > tr > th, .table-primary > tbody > tr > td, .table-primary > tfoot > tr > th, .table-primary > tfoot > tr > td {
+    padding: 8px 12px;
+    line-height: 2.14286;
+    border-bottom: 1px solid #BFC0C2;
+    font-weight: 300;
+    font-size: 14px;
+  }
+.table-striped > thead > tr > td:nth-of-type(even), .table-striped > thead > tr > td:nth-of-type(even), .table-striped > tbody > tr > td:nth-of-type(even), .table-striped > tbody > tr > td:nth-of-type(even), .table-striped > tfoot > tr > td:nth-of-type(even), .table-striped > tfoot > tr > td:nth-of-type(even) {
+  background: transparent;
+  background-color: #F7F7F7;
+  transition: .1s;
+ 
+}
+.Bosch-Ic-facebook:before {
+  content: "";
+}
+.Bosch-Ic:before, .alert .alert-icon:before, .alert .alert-close:before {
+  font-family: "Bosch-Ic";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  vertical-align: middle;
+}
+
+.table > thead > tr > td.selected, .table > thead > tr > th.selected, .table > thead > tr.selected > td, .table > thead > tr.selected > th, .table > tbody > tr > td.selected, .table > tbody > tr > th.selected, .table > tbody > tr.selected > td, .table > tbody > tr.selected > th, .table > tfoot > tr > td.selected, .table > tfoot > tr > th.selected, .table > tfoot > tr.selected > td, .table > tfoot > tr.selected > th, .table-primary > thead > tr > td.selected, .table-primary > thead > tr > th.selected, .table-primary > thead > tr.selected > td, .table-primary > thead > tr.selected > th, .table-primary > tbody > tr > td.selected, .table-primary > tbody > tr > th.selected, .table-primary > tbody > tr.selected > td, .table-primary > tbody > tr.selected > th, .table-primary > tfoot > tr > td.selected, .table-primary > tfoot > tr > th.selected, .table-primary > tfoot > tr.selected > td, .table-primary > tfoot > tr.selected > th {
+  background: transparent;
+  background-color: rgba(0,142,207,0.15);
+  transition: .1s;
+  color: inherit;
+}
+
+.table-primary > thead > tr > th {
+  border-bottom: 4px solid #BFC0C2;
+  text-align: left;
+  font-weight: 300;
+  font-size: 14px;
+  font-weight: 700;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #ffffff;
+}
+
+.modal-content {
+  box-shadow: none;
+  border-radius: 0px;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=70);
+  opacity: .7;
+}
+
+@media (min-width: 1200px) {
+  .modal-xlg {
+    width: 1040px;
+  }
+}
+.OT-search-button {
+  width: 100%;
+}
+
+.OT-search-button .form-control {
+  width: 100%;
+  position: relative;
+  color: #454545;
+  font-size: 16px;
+  padding-right: 50px;
+  background-color: transparent;
+}
+
+.OT-search-button input {
+  color: #7a7a7a; 
+}
+
+
+
+.OT-search-icon {
+  color: #7a7a7a;
+  position: absolute;
+  right: 6%;
+  top: 5px;
+  cursor: pointer;
+}
+
+/* override Bootstrap's container */
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto
+}
+.OT-search-icon {
+
+}
+@media (min-width:1200px) {}
+
+.OT-display-none {
+  display: none;
+}
+
+/*chart styles*/
+
+.OT-chart-container {
+  background-color: #F8F8F8;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.OT-chart-border-1 {
+  border-top: 5px solid #008ECF;
+  border-image: linear-gradient(to left, #008ECF 25%, #005691 75%);
+  border-image-slice: 1;
+}
+
+.OT-chart-border-2 {
+  border-top: 5px solid #008ECF;
+  border-image: linear-gradient(to left, #00A8B0 25%, #008ECF 75%);
+  border-image-slice: 1;
+}
+
+.OT-chart-border-3 {
+  border-top: 5px solid #008ECF;
+  border-image: linear-gradient(to left, #78BE20 25%, #00A8B0 75%);
+  border-image-slice: 1;
+}
+
+.OT-chart-border-4 {
+  border-top: 5px solid #008ECF;
+  border-image: linear-gradient(to left, #006249 25%, #78BE20 75%);
+  border-image-slice: 1;
+}
+
+.OT-chart-title {
+  font-size: 24px;
+  color: #333333;
+  position: relative;
+  top: -5px;
+  font-weight: 300;
+  padding-left: 10px;
+}
+
+.OT-default-height {
+  width: 100%;
+  height: 290px;
+}
+
+/*Month Picker style*/
+
+.monthpicker {
+  display: inline-block;
+  position: relative;
+  font-family: "Century Gothic";
+  font-size: .9em;
+  vertical-align: middle;
+}
+
+.monthpicker_selector *::selection {
+  background: transparent;
+}
+
+.monthpicker_input {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: #2C2C2C;
+  padding: 1px 5px;
+  border: 2px solid transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #FFF;
+}
+
+.monthpicker_input .placeholder {
+  color: #888;
+}
+
+.monthpicker_input.active {
+  background-color: #D4D4D4;
+  color: #000;
+}
+
+.monthpicker_selector {
+  position: absolute;
+  top: 100%;
+  background-color: #2C2C2C;
+  min-width: 173px;
+  box-shadow: 1px 2.5px 5px 0;
+  z-index: 100;
+}
+
+.monthpicker_selector>table {
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-family: "Century Gothic";
+  font-size: .9em;
+}
+
+.monthpicker_selector>table tr:first-child td {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.monthpicker_selector>table tr:first-child>td:nth-child(1) {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: left;
+}
+
+.monthpicker_selector>table tr:first-child>td:nth-child(2) {
+  position: relative;
+}
+
+.monthpicker_selector>table tr:first-child>td:nth-child(3) {
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: right;
+}
+
+.yearSwitch {
+  padding: 0 10px;
+  border-radius: 3px;
+  background: #D4D4D4;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.yearSwitch.off {
+  visibility: hidden;
+}
+
+.yearValue {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: none;
+  border: none;
+  color: #FFF;
+  outline: none;
+  font-family: "Century Gothic";
+  font-size: 1.1em;
+}
+
+/* months */
+
+.monthpicker_selector .month {
+  border: 1px solid #444;
+  cursor: pointer;
+}
+
+.monthpicker_selector .month:hover {
+  background-color: #444
+}
+
+.month.selected {
+  background: #D4D4D4;
+  color: #2C2C2C;
+  font-weight: bold;
+}
+
+.monthpicker_selector .month.off {
+  color: #666;
+  cursor: not-allowed;
+}
+
+.monthpicker_selector .month.off:hover {
+  background: none;
+}
+
+.monthpicker_selector>table tr td:first-child {
+  border-left: none;
+}
+
+.monthpicker_selector>table tr td:last-child {
+  border-right: none;
+}
+
+.monthpicker_selector>table tr:last-child td {
+  border-bottom: none;
+}
+
+/*filter specific*/
+
+.OT-filter-main {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.OT-filter-main>div.OT-filter-heading-black {
+  font-size: 11px;
+  font-weight: 600;
+  color: #333333;
+}
+.OT-filter-main>div.OT-filter-heading-white {
+  font-size: 11px;
+  font-weight: 600;
+  color: white;
+}
+.OT-filter-main>ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  margin-left: -40px;
+}
+
+.OT-filter-checkbox-disabled {
+  background-color: #5ca8ca;
+}
+
+.OT-filter-reset-button {
+  color: #f9fbff;
+  font-size: 16px;
+  cursor: pointer;
+  padding-right: 40px;
+  padding-left: 15px;
+}
+
+  .OT-filter-reset-button:hover {
+ 
+    color: white;
+    text-decoration: underline !important;
+  }
+
+.OT-filter-options {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  margin: 15px 0 0;
+}
+
+.OT-add-filter-header {
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+.t-align-right{
+  text-align: right;
+}
+
+.pagination {
+  margin: 0px;
+  font-size: 0;
+  text-align: center;
+  float: right;
+}
+
+  .pagination a {
+    display: inline-block;
+    border-radius: 141px;
+    padding: 9px 0px 0px 0px;
+    font-size: 14px;
+    width: 42px;
+    height: 42px;
+  }
+
+    .pagination a:hover {
+      text-decoration: underline;
+    }
+
+  .pagination ol {
+    position: relative;
+    top: 4px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+  }
+
+    .pagination ol li {
+      display: inline-block;
+      margin: 0 2.5px;
+    }
+
+      .pagination ol li.active a {
+        background: #005691;
+        color: #fff;
+      }
+
+        .pagination ol li.active a:hover {
+          text-decoration: none;
+          cursor: default;
+        }
+
+  .pagination .prev.disabled, .next.disabled {
+    cursor: default;
+    background: #ccc;
+    color: #888;
+    border-color: #888;
+  }
+
+    .pagination .prev.disabled:hover, .next.disabled:hover {
+      cursor: default;
+      text-decoration: none;
+    }
+
+  .pagination ol .prev {
+    margin-right: 2.5px;
+  }
+
+  .pagination ol .next {
+    margin-left: 2.5px;
+  }
+
+  .pagination .prev, .pagination .next {
+    vertical-align: top;
+    margin-top: 1px;
+    width: 32px;
+  }
+.page-arrow {
+  vertical-align: middle;
+  margin-top: 6px;
+}
+
+.pagination>li:first-child>a, .pagination>li:first-child>span {
+  margin-left: 0;
+  width: 80px;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.pagination>li:last-child>a, .pagination>li:last-child>span {
+  width: 80px;
+}
+
+#BusinessUnitTable_paginate{
+  margin-right: 50px;
+}
+
+input-sm{
+  width: 60px;
+}
+
+.toolbar{
+  
+  display: inline;
+  /* top: 0;
+  position: absolute;
+  right: 0;
+  margin: 5px; */
+}
+
+/* #BusinessUnitTable_filter{
+  margin-right: 120px;
+} */
+
+@media screen and (max-width: 600px) {
+  .toolbar {
+    display: -webkit-box;
+    text-align: -webkit-center;
+  }
+}
+
+.navSet {
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-top: -8px;
+  border-radius: 0px;
+  border-left: 0px solid red;
+  border-right: 0px solid red;
+  border: none;
+}
+
+tfoot {
+  display: table-header-group;
+}

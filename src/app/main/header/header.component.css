@@ -1,0 +1,95 @@
+.animate {
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+ 
+.OT-Title-main {
+    font-size: 26px;
+    font-weight: bold;
+    color: #008ECF;
+}
+
+.OT-Header-brand-title {
+    margin-top: 10px;
+}
+
+.OT-header-center-title {
+    text-align: center;
+    font-size: 20px;
+    color: #008ECF;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.OT-remove-pd-mr {
+    padding: 0px;
+    margin: 0px;
+}
+
+.OT-pd-25 {
+    padding: 25px;
+}
+
+.OT-header-border {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/*Nav button on top*/
+
+.OT-nav-button-wrapper {
+    width: 100%;
+}
+
+.OT-nav-ul li {
+    display: inline-block;
+    margin-left: -4px;
+}
+
+.OT-nav-ul li a {
+    display: block;
+    font-size: 18px;
+    padding: 0px 12px 3px 12px;
+    margin: 5px 0;
+    color: #666694;
+    line-height: 12px;
+    border-right: 2px solid #4679BD;
+    text-decoration: none;
+}
+
+.OT-nav-ul li a:hover {
+    color: darkblue;
+}
+
+.OT-nav-ul li:last-child a {
+    border-right: none;
+}
+
+.OT-header-welcome-text {
+    color: #8F9091;
+    font-size: 13px;
+    font-weight: 200;
+}
+.OT-header-fix{
+    position: fixed;
+    height: 52px !important;
+    z-index: 10000;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+}
+.OT-header-center-title{
+    position:absolute;
+    color:#008ECF;
+    top:42%;
+    left:50%;
+    padding:15px;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+/*nav buttons ends*/
+
+/*added for nav only*/
+
